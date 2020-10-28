@@ -31,9 +31,9 @@ public class Variable04 {
 		System.out.printf("----------------------------------------------------------------\n");
 		System.out.printf("번호\t성명\t\t국어\t영어\t수학\t총점\t평균\n");
 		System.out.printf("----------------------------------------------------------------\n");
-		System.out.printf("1\t홍길동\t\t%d\t%d\t%d\t%d\t%.2f\n", kor1, eng1, mat1, tot1, ave1);
-		System.out.printf("2\tGildong\t%d\t%d\t%d\t%d\t%.2f\n", kor2, eng2, mat2, tot2, ave2);
-		System.out.printf("3\tHongGil\t%d\t%d\t%d\t%d\t%.2f\n", kor3, eng3, mat3, tot3, ave3);
+		System.out.printf("%d\t%s\t\t%d\t%d\t%d\t%d\t%.2f\n", 1, "홍길동", kor1, eng1, mat1, tot1, ave1);
+		System.out.printf("%d\t%s\t%d\t%d\t%d\t%d\t%.2f\n", 2, "Gildong", kor2, eng2, mat2, tot2, ave2);
+		System.out.printf("%d\t%s\t%d\t%d\t%d\t%d\t%.2f\n", 3, "shdlfasdf", kor3, eng3, mat3, tot3, ave3);
 		System.out.printf("----------------------------------------------------------------");
 	}
 
