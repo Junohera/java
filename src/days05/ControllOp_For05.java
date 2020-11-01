@@ -24,7 +24,6 @@ public class ControllOp_For05 {
 			max = temp;
 		}
 		
-		
 		for (int i = min; i <= max; i++) {
 			System.out.println(i);
 		}
