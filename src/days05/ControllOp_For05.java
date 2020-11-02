@@ -9,6 +9,7 @@ public class ControllOp_For05 {
 		// 입력받은 숫자중에서 작은 숫자부터 큰숫자까지 출력하세요.
 		
 		Scanner sc = new Scanner(System.in);
+		
 		int min, max, temp;
 		
 		System.out.printf("첫번째 정수를 입력하세요 : ");
@@ -24,9 +25,26 @@ public class ControllOp_For05 {
 			max = temp;
 		}
 		
-		for (int i = min; i <= max; i++) {
+		for (int i = min; i <= max; i++)
 			System.out.println(i);
+		
+		/*
+		int i, a, b;
+
+		System.out.printf("첫번째 정수를 입력하세요 : ");
+		a = sc.nextInt();
+		
+		System.out.printf("\n두번째 정수를 입력하세요 : ");
+		b = sc.nextInt();
+		
+		if (a < b) {
+			for (i = a; i<= b; i++)
+				System.out.printf("%d\t",  i);
+		} else {
+			for (i = b; i<= a; i++)
+				System.out.printf("%d\t",  i);
 		}
+		*/
 	}
 
 }
