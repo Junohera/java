@@ -37,9 +37,14 @@ public class ControllOp_For14 {
 			System.out.println();
 		}
 		
-		for (int i = 1; i <= 10; i++) {
-			for(int j = i; j <= 10; j++) {
-				System.out.printf("#");
+//		j > i
+//		9, 10
+//		8, (9, 10)
+//		7, (8,9,10)
+		for (int i = 10; i > 0 ; i--) {
+			for(int j = 1; j <= 10; j++) {
+				if (j > i) System.out.printf("#");	
+				else System.out.printf("  ");
 			}
 			System.out.println();
 		}
