@@ -1,6 +1,4 @@
-package days06;
-
-public class ControllOp_For14 {
+public class ControllOp_For141 {
 
 	public static void main(String[] args) {
 		/*for (int i = 1; i <= 10; i++) {
@@ -49,6 +47,8 @@ public class ControllOp_For14 {
 			System.out.println();
 		}
 		
+System.out.println();
+
 		// i = (10, 9, 8, 7, ...)
 		// j = ((10), (9, 10), (8, 9, 10), (7, 8, 9, 10))
 		for (int i = max; i > 0 ; i--) {
@@ -59,22 +59,11 @@ public class ControllOp_For14 {
 			System.out.println();
 		}
 		
+System.out.println();
+
 		for (int i = 1; i <= max; i++) {
 			for(int j = 1; j <= max; j++) {
 				if (j < i) System.out.printf(" ");
-				else System.out.printf("#");
-			}
-			System.out.println();
-		}
-		
-		System.out.println();
-		
-		// i = (20, 19, 18)
-		// j = ((10), (9, 10, 11), (8, 9, 10, 11, 12))
-		max = 20;
-		for (int i = 10; i > 0; i--) {
-			for(int j = 1; j <= 20 - i; j++) {
-				if (j < i) System.out.printf("  ");
 				else System.out.printf("#");
 			}
 			System.out.println();
