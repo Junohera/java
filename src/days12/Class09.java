@@ -41,7 +41,7 @@ class GetSetTest {
 	
 	// 현재 위치에서 마우스 오른쪽 버튼 클릭 -> Source -> Generate getters and setters 클릭
 }
-public class Class9 {
+public class Class09 {
 
 	public static void main(String[] args) {
 		GetSetTest g = new GetSetTest();

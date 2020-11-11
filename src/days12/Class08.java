@@ -23,7 +23,7 @@ class Circle {
 	double getN() { return n; }
 	double getD() { return d; }
 }
-public class Class8 {
+public class Class08 {
 
 	public static void main(String[] args) {
 		Circle c = new Circle();
