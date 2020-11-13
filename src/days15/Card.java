@@ -1,4 +1,4 @@
-package days14;
+package days15;
 
 public class Card {
 	final static int spade = 4;
@@ -21,7 +21,4 @@ public class Card {
 		return "[" + kinds[this.kind] + ":" + numbers[this.number] + "]";
 		// kind이 4, number:13이라면 만들어지고 리턴될 문자열 "[Spade:K]";
 	}
-	// Card c = new Card(4, 13);
-	// System.out.println(c.toString());
-	// 출력 : [Spade:K]
 }
