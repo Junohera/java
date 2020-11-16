@@ -38,13 +38,13 @@ public class Operator01 {
 		byte b3 = (byte)(b1 + b2);
 		
 		// 형변환 연산자를 자료형간의 호환이 가능한 데이터에만 사용할 수 있습니다.
-		// 그 외에는 별도의 형변환 메서드나 연산이 필요합니다.
+		// 그 외에는 별도의 형변환 method나 연산이 필요합니다.
 		double d1 = 1.23456;
 		int a = (int)d1; // a변수에 소수점이 없어진 1 저장
 		double d2 = (double)a; // d2변수에 1.0 저장
 		String str = "123456";
 		// int a = (int)str; 에러 - 잘못된 예 int 와 String 사이에는 형변환 호환성이 없습니다.
-		int b = Integer.parseInt(str); // 올바른 예 - 문자열을 정수로 변환하는 메소드 사용
+		int b = Integer.parseInt(str); // 올바른 예 - 문자열을 정수로 변환하는 method 사용
 		
 		// String 데이터와 숫자 데이터의 크기 비교
 		// 1234, 998 두개의 숫자중 큰 숫자는 1234 입니다.

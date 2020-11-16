@@ -27,8 +27,8 @@ public class Class08 {
 
 	public static void main(String[] args) {
 		Circle c = new Circle();
-		c.initBan(0); // 반지름을 초기화하는 메서드
-		c.generate(); // 넓이와 둘레를 계산하는 메서드
+		c.initBan(0); // 반지름을 초기화하는 method
+		c.generate(); // 넓이와 둘레를 계산하는 method
 		System.out.println("현재 원의 넓이 : " + c.getN());
 		System.out.println("현재 원의 둘레 : " + c.getD());
 	}

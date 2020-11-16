@@ -22,7 +22,7 @@ class SubC extends SuperC {
 		System.out.println("자식클래스의 생성자 실행");
 	}
 }
-public class Extends5 {
+public class Extends05 {
 	public static void main(String[] args) {
 		SubC s = new SubC();
 	}

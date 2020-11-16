@@ -8,8 +8,8 @@ public class Method16 {
 		// 다수의 학생들의 다수 과목의 성적을 저장하는 배열 생성
 		int [][] scores;
 		scores = new int[getStudentNumber()][getSubjectNumber() + 1];
-		// getStudentNumber() : 학생수를 입력받아서 리턴하는 메서드
-		// getSubjectNumber() : 과목수를 입력받아서 리턴하는 메서드
+		// getStudentNumber() : 학생수를 입력받아서 리턴하는 method
+		// getSubjectNumber() : 과목수를 입력받아서 리턴하는 method
 		// getSubjectNumber() + 1 : 총점을 저장할 공간 하나를 추가로 생성
 		input(scores);
 		output(scores);

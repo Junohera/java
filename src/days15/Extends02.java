@@ -21,7 +21,7 @@ class K7 extends Car { // 자식클래스 선언
 		System.out.printf("도어개수 : %d\n", this.도어개수);
 	}
 }
-public class Extends2 {
+public class Extends02 {
 	public static void main(String[] args) {
 		K7 k = new K7();
 		k.엔진 = 6;

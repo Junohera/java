@@ -31,9 +31,9 @@ public class Method13 {
 	
 	public static double avg(int sub1, int sub2, int sub3) {
 		return (int)(sum(sub1, sub2, sub3) / 3.0 * 100) / 100.0; // 소수점 2자리까지만
-		// 메서드는 반드시 main 메서드에서만 호출할 수 있는 것이 아닙니다.
-		// 만들어진 메서드들간에 필요하다면 서로를 호출하여 결과를 활용할 수 있습니다.
-		// 메서드 호출의 결과로 리턴된 값은 위와 같이 다음 연산에도 참여시킬 수 있습니다.
+		// method는 반드시 main method에서만 호출할 수 있는 것이 아닙니다.
+		// 만들어진 method들간에 필요하다면 서로를 호출하여 결과를 활용할 수 있습니다.
+		// method 호출의 결과로 리턴된 값은 위와 같이 다음 연산에도 참여시킬 수 있습니다.
 		// t = sum(k, m, e); a = sum(k, m, e) / 3.0;
 	}
 	

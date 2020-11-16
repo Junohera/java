@@ -45,7 +45,7 @@ class SubB extends SuperB { // SuperB 클래스 상속
 		// 호출하려는 super() 또는 this()의 매개변수에 맞춰 전달인수를 전달합니다.
 	}
 }
-public class Extends4 {
+public class Extends04 {
 	public static void main(String[] args) {
 		SubB b = new SubB();
 		System.out.println();

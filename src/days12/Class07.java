@@ -10,7 +10,7 @@ class Gugudan {
 		dan = input_dan;
 	}
 	
-	// 현재 dan 변수에 있는 값으로 구구단 한개의 단을 출력하는 메서드 정의
+	// 현재 dan 변수에 있는 값으로 구구단 한개의 단을 출력하는 method 정의
 	void prnGugudan() {
 		for (int i = 1; i <= 9; i++) {
 			System.out.println(dan + "x" + i + "=" + (dan*i));
@@ -38,9 +38,9 @@ public class Class07 {
 			
 			// Gugudan 객체 생성
 			Gugudan g = new Gugudan();
-			// dan 값을 초기화하는 메서드 호출
+			// dan 값을 초기화하는 method 호출
 			g.initDan(menuOrDan);
-			// 현재 저장된 dan 값으로 한개의 단을 출력하는 메서드 호출
+			// 현재 저장된 dan 값으로 한개의 단을 출력하는 method 호출
 			g.prnGugudan();
 			
 			System.out.printf("\n원하는 단수를 입력, 또는 종료를 원하면 0을 입력하세요.");

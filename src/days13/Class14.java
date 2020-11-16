@@ -2,10 +2,10 @@ package days13;
 class PersonC {
 	private int age;
 	/*
-	 * 생성자는 메서드이므로 매개변수를 사용할 수 있습니다.
+	 * 생성자는 method이므로 매개변수를 사용할 수 있습니다.
 	 * 1. 생성자의 매개변수를 활용하는 경우 각각의 객체마다 서로 다른 값을 가질 수 있습니다.
 	 */
-	PersonC () { this.age = 60; } // 4. 생성자 메서드 오버로딩을 통해 없어진 디폴트 생성자 문제를 해결할 수 있습니다.
+	PersonC () { this.age = 60; } // 4. 생성자 method 오버로딩을 통해 없어진 디폴트 생성자 문제를 해결할 수 있습니다.
 	PersonC (int age) { this.age = age; }
 	
 	public int getAge() {return age;}

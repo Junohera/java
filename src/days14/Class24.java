@@ -1,20 +1,20 @@
 package days14;
-// static 변수, static 메서드, 인스턴스(멤버)변수, 인스턴스(멤버)메서드
+// static 변수, static method, 인스턴스(멤버)변수, 인스턴스(멤버)method
 class MyMath {
 	int a, b;
 	static int c = 0;
 	
 	MyMath() { c++; }
-	// 인스턴스 메서드에서는 스태틱 변수를 자유롭게 사용할 수 있습니다.
+	// 인스턴스 method에서는 스태틱 변수를 자유롭게 사용할 수 있습니다.
 	void init() { a = c*100; b = c*200; }
 	
 	int add () { return a + b; }
 	int subtract () { return a - b; }
 	int multiply () { return a * b; }
 	double divide () { return a / (double)b; }
-	// 인스턴스 메서드들은 인스턴스 변수들도 자유롭게 사용 가능합니다.
+	// 인스턴스 method들은 인스턴스 변수들도 자유롭게 사용 가능합니다.
 	
-	// 반면에 스태틱 메서드는 인스턴스 변수를 사용할 수 없습니다. 스태틱 변수와 매개변수만 사용가능합니다.
+	// 반면에 스태틱 method는 인스턴스 변수를 사용할 수 없습니다. 스태틱 변수와 매개변수만 사용가능합니다.
 	static int add (int e, int d) { return e + d + c; }
 	static int subtract (int e, int d) { return e - d + c; }
 	static int multiply (int e, int d) { return e * d + c; }

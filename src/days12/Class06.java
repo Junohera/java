@@ -17,7 +17,7 @@ class AccountWithPermission {
 	 * 정보은닉
 	 * 클래스 내부에 선언된 멤버필드들은 현실에 존재하는 대상의 정보를 저장합니다.
 	 * 일반적으로 이러한 정보들은 직접적으로 접근 및 수정해서는 안됩니다.
-	 * 이러한 이유로 모든 멤버필드들은 private으로 선언하고, 멤버필드들은 제어할 수 있는 메소드들을
+	 * 이러한 이유로 모든 멤버필드들은 private으로 선언하고, 멤버필드들은 제어할 수 있는 method들을
 	 * public으로 선언합니다.
 	 */
 	
@@ -35,7 +35,7 @@ class AccountWithPermission {
 	public void withraw(int money) {
 		if (money > balance) {
 			System.out.println("잔액이 부족합니다.");
-			return; // void 메서드의 return은 반환될 값이 없이 사용되며, 메서드를 현위치에서 종료하는 명령입니다.
+			return; // void method의 return은 반환될 값이 없이 사용되며, method를 현위치에서 종료하는 명령입니다.
 		}
 		balance -= money;
 	} // 출금

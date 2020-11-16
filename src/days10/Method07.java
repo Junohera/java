@@ -3,7 +3,7 @@ package days10;
 public class Method07 {
 
 	/*
-	 * 정수하나를 전달 받아서 받은 정수의 구구단을 출력하는 메서드를 생성하세요.
+	 * 정수하나를 전달 받아서 받은 정수의 구구단을 출력하는 method를 생성하세요.
 	 */
 	public static void main(String[] args) {
 		for (int i = 2; i <= 9; i++) {

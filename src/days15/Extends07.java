@@ -18,7 +18,7 @@ class SubSubE extends SubE {
 		System.out.println("subsubEMethod실행\nthis.x = " + this.x + "\nsuper.x = " + super.x);
 	}
 }
-public class Extends7 {
+public class Extends07 {
 	public static void main(String[] args) {
 		SuperE s = new SuperE(100);
 		s.superEMethod();

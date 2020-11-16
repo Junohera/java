@@ -28,12 +28,12 @@ class SubD extends SuperD {
 		System.out.println("SubD(String)");} 		// 5
 	/*
 	 * 모든 자식 생성자는 this와 super중 하나만을 사용할 수 있으며,
-	 * this를 사용한 메서드는 super의 사용권한을 호출한 형제 생성자에게 일임합니다.
+	 * this를 사용한 method는 super의 사용권한을 호출한 형제 생성자에게 일임합니다.
 	 * 따라서 오버로딩된 생성자 중에 반드시 하나 이상의 생성자가 super()를 호출해야합니다.
 	 * 둘다 안쓰면 super()가 사용된 것으로 간주합니다.
 	 */
 }
-public class Extends6 {
+public class Extends06 {
 	public static void main(String[] args) {
 		// SuperD s = new SuperD();
 		SubD sub = new SubD();

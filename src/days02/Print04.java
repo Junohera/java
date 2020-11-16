@@ -6,7 +6,7 @@ public class Print04 {
 	// println 은 출력내용을 모두 출력 후 줄바꿈을 자동으로 해주는 명령입니다.
 	
 	public static void main(String[] args) {
-		//System.out.println() 메서드는 문자열(" "로 묶인 데이터)이 주가된 출력이 아니라
+		//System.out.println() method는 문자열(" "로 묶인 데이터)이 주가된 출력이 아니라
 		// 어떤 형식의 자료도 먼저 출력이 가능합니다.
 		System.out.println(10); // System.out.printf("%d", 10);
 		System.out.println(12.123); // System.out.printf("%.3f", 12.123);

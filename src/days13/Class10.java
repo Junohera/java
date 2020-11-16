@@ -2,7 +2,7 @@ package days13;
 /*
  * 클래스 이름 : Triangle
  * 멤버변수 : a(밑변), b(높이), n(넓이)
- * 멤버메서드 : getter/setter, cal(넓이 계산), prn(밑변, 높이, 넓이 한번에)
+ * 멤버method : getter/setter, cal(넓이 계산), prn(밑변, 높이, 넓이 한번에)
  */
 class Triangle {
 	private int a;

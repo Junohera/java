@@ -17,7 +17,7 @@ class SubF extends SuperF {
 	}
 } // 자식클래스
 
-public class TypeCasting2 {
+public class TypeCasting02 {
 	public static void main(String[] args) {
 		
 		// 부모 클래스의 객체 생성
@@ -29,14 +29,14 @@ public class TypeCasting2 {
 		// 부모 클래스의 레퍼런스 변수에 저장할 수 있습니다.
 		SuperF super2 = sub1;
 		// SuperF super2 = new Sub();
-		// 또한 자식 인스턴스에 있는 멤버 메서드 등은 부모 클래스의 멤버에 접근할 권한이 있습니다.
+		// 또한 자식 인스턴스에 있는 멤버 method 등은 부모 클래스의 멤버에 접근할 권한이 있습니다.
 		
 		// 반대로 부모 클래스의 레퍼런스 변수 값(또는 new 인스턴스 주소값)을 자식 클래스의 레퍼런스로 대입할 수 는 없습니다.
 		// SubF sub2 = super1; // 에러
 		// SubF sub2 = new SuperF(); // 에러
 		
 		// 자식 인스턴스의 주소를 받은 부모 레퍼런스 변수는 변수이름을 이용하여 자식 클래스의 인스턴스에 접근하되
-		// 상속해준 부모 클래스의 멤버변수와 멤버 메서드로만 한정됩니다.
+		// 상속해준 부모 클래스의 멤버변수와 멤버 method로만 한정됩니다.
 		super2.superNum = 300;
 		// 자식클래스의 멤버에는 접근할 수 없음
 		// super2.subNum = 10;(에러)

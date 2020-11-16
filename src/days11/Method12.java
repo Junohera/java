@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Method12 {
 
 	public static void main(String[] args) {
-		// 밑변과 높이를 입력받아서 삼각형의 넓이를 계산하여 출력(메서드 사용)
+		// 밑변과 높이를 입력받아서 삼각형의 넓이를 계산하여 출력(method 사용)
 		int a, b;
 		double c;
 		a = myInput(1); // 밑변을 입력받음
@@ -29,10 +29,10 @@ public class Method12 {
 		System.out.printf("\n삼각형의 넓이는 %.2f 입니다.", value);
 	}
 	
-	// 메서드 제작 순서
+	// method 제작 순서
 	// 1. 함수의 용도 전달인수 및 리턴값 유무 파악.
 		// myInput은 함수내에서 밑변 또는 높이 입력이라는 안내와 함께 정수를 입력받아 입력받은 정수를 리턴
-	// 2. 메서드의 호출형태(호출 구문)을 복사 a = myInput(1);
+	// 2. method의 호출형태(호출 구문)을 복사 a = myInput(1);
 	// 3. 왼쪽에 'a = '가 있다는 뜻은 리턴값이 있다는 뜻이므로 자료형을 보고 앞쪽 내용을 바꿔줍니다.
 		// a = -> public static int' =>  public static int myInput(1);
 		// 만약 a=이라는 구문이 없다면 리턴값이 없다는 것이므로 public static void를 사용합니다.

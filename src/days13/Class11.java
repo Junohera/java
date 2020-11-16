@@ -2,7 +2,7 @@ package days13;
 /*
  * 클래스 이름 : Complex
  * 멤버 변수 : image(int)-허수부, real(int)-실수부
- * 멤버 메서드 : getter, setter, add() - 두 복소수간의 합, init() - 복소수 값 초기화, prn() - 복소수 출력(3+7i)형식
+ * 멤버 method : getter, setter, add() - 두 복소수간의 합, init() - 복소수 값 초기화, prn() - 복소수 출력(3+7i)형식
  */
 
 class Complex {

@@ -4,7 +4,7 @@ class SubG1 extends SuperG {}
 class SubG2 extends SuperG {}
 class SubG3 extends SuperG {}
 
-public class TypeCasting3 {
+public class TypeCasting03 {
 
 	public static void main(String[] args) {
 		SuperG s = new SuperG();
