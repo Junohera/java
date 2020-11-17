@@ -41,7 +41,16 @@ class Sub_A implements Inter_A {
 }
 public class Interface01 {
 	public static void main(String[] args) {
-		Sub_A s = new Sub_A();
-		s.test();
+		/*
+		 * 인터페이스는 객체를 생성할 수 없습니다.
+		 * 1. 생성자가 없으므로 객체 생성 불가
+		 * 2. 추상메서드를 포함할 수 있기 때문에...
+		 * Inter_A a = new Inter_A(); 에러
+		 * 상속을 통한 다형성 구현에만 인터페이스가 활용됨
+		 * 부모 인터페이스의 레퍼런스를 사용하여 자식클래스의 객체를 참조 가능
+		 * 부모 인터페이스의 레퍼런스를 사용하여 자식클래스의 오버라이딩된 메서드를 호출
+		 */
+		Inter_A a = new Sub_A();
+		a.test();
 	}
 }
