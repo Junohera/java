@@ -1,5 +1,6 @@
 package days15;
 
+// #shuffle #무작위 #랜덤 #섞기
 class Deck {
 	Card[] cards = new Card[52];
 
