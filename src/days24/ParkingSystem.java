@@ -93,7 +93,7 @@ public class ParkingSystem {
 
 	public static void main(String[] args) throws FileNotFoundException, IOException, ClassNotFoundException, ParseException {
 		Scanner sc = new Scanner(System.in);
-		File dir = new File("/Users/juno/dev/project/javaBase/file/parking");
+		File dir = new File("C:\\juno\\workspaces\\Java_Project\\file\\parking");
 		if (!dir.exists()) {
 			dir.mkdirs();
 		}
